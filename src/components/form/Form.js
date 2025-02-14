@@ -18,7 +18,7 @@ export default function Form() {
                 autoComplete="off"
                 />
                 <button type="submit" className="btn btn__primary btn__lg">
-                    Add
+                    Add+
                 </button>
             </form>
         </>
