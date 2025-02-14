@@ -12,10 +12,16 @@ const DATA = [
   { id: "todo-2", name: "Repeat", completed: false },
 ];
 
+const filterButtonDATA = [
+  { id: "filter-0", name: "All" },
+  { id: "filter-1", name: "Active" },
+  { id: "filter-2", name: "Completed" },
+];
+
 root.render(
   <React.StrictMode>
     {/* 为App组件传递props（subject） */}
-    <App tasks={DATA} />
+    <App tasks={DATA} filterType={filterButtonDATA}/>
   </React.StrictMode>
 );
 
